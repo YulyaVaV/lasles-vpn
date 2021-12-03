@@ -1,6 +1,6 @@
 ## LaslesVPN
 
-- [DEMO LINK HERE](https://yulyavav.github.io/food-delivery/)
+- [DEMO LINK HERE](https://yulyavav.github.io/lasles-vpn/)
 - [LaslesVPN FIGMA](https://www.figma.com/file/9C7ivsuN3GX9QJD1fLgA4l/LaslesVPN?node-id=0%3A1)
 
 
