@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/lasles-vpn/static/css/main.8d7c53e9.chunk.css",
+    "main.js": "/lasles-vpn/static/js/main.cf51ab47.chunk.js",
+    "main.js.map": "/lasles-vpn/static/js/main.cf51ab47.chunk.js.map",
+    "runtime-main.js": "/lasles-vpn/static/js/runtime-main.7a8b6300.js",
+    "runtime-main.js.map": "/lasles-vpn/static/js/runtime-main.7a8b6300.js.map",
+    "static/js/2.ac433116.chunk.js": "/lasles-vpn/static/js/2.ac433116.chunk.js",
+    "static/js/2.ac433116.chunk.js.map": "/lasles-vpn/static/js/2.ac433116.chunk.js.map",
+    "index.html": "/lasles-vpn/index.html",
+    "static/css/main.8d7c53e9.chunk.css.map": "/lasles-vpn/static/css/main.8d7c53e9.chunk.css.map",
+    "static/js/2.ac433116.chunk.js.LICENSE.txt": "/lasles-vpn/static/js/2.ac433116.chunk.js.LICENSE.txt",
+    "static/media/Free.730099fa.png": "/lasles-vpn/static/media/Free.730099fa.png",
+    "static/media/HugeGlobal.f045174d.png": "/lasles-vpn/static/media/HugeGlobal.f045174d.png",
+    "static/media/Illustration1.f376494f.png": "/lasles-vpn/static/media/Illustration1.f376494f.png",
+    "static/media/Illustration2.017eb964.png": "/lasles-vpn/static/media/Illustration2.017eb964.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a8b6300.js",
+    "static/js/2.ac433116.chunk.js",
+    "static/css/main.8d7c53e9.chunk.css",
+    "static/js/main.cf51ab47.chunk.js"
+  ]
+}
