@@ -1,0 +1,39 @@
+.map {
+  margin-bottom: 120px;
+  
+  &__top {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+    
+  &__title {
+    padding-bottom: 20px;
+  }
+
+  &__subtitle {
+    padding-bottom: 70px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__img {
+    margin-bottom: 90px;
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 1060px;
+    height: auto;
+  }
+
+  &__services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    width: 100%;
+    gap: 30px;
+  }
+}

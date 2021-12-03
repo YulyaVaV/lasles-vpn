@@ -1,0 +1,104 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+
+.comment {
+  margin-bottom: 40px;
+
+  @include onTablet {
+    margin-bottom: 10px;
+  }
+  
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  &__subtitle {
+    text-align: center;
+    padding-bottom: 50px;
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+
+.slider {
+
+  &__container {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+    @include onTablet {
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+
+  &__slide {
+    display: flex;
+    gap: 40px;
+  }
+}
+
+.toggler {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 0 30px;
+  align-items: center;
+
+  &__radios {
+    display: flex;
+    gap: 15px;
+  }  
+  
+  &__radio {
+    display: none;
+
+    &:checked+.toggler__label {
+      background-color: #f53838;
+    }
+  }
+
+  &__label {
+    width: 15px;
+    height: 15px;
+    background-color: #dde0e4;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+
+  &__buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  &__prev {
+    background-color: $whiteColor;
+    border: 3px solid $redButton;
+  }
+
+  &__next {
+    background-color: $redButton;
+    border: 3px solid $redButton;
+  }
+}
+

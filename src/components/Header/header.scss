@@ -1,0 +1,168 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+
+.header {
+  &__logo {
+    height: 36px;
+    width: 150px;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+
+    @include onTablet {
+      position: relative;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 20px;
+    }
+  }
+
+    &__content {
+      display: flex;
+      align-items: center;
+      gap: 130px;
+
+      @include onTablet {
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+
+  &__button {
+    display: flex;
+    gap: 20px;
+
+    @include onTablet {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  &__signIn {
+    color: $titlecolor;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  &__signUp {
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+  }
+  
+  &__container {
+    display: flex;
+    padding-right: 20px;
+
+    @include onTablet {
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-right: 0;
+    }
+  }
+  
+  &__wrapper {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+
+    @include onTablet {
+      flex-direction: column;
+      text-align: center;
+    }
+  }  
+  
+  &__title {
+    color: $titlecolor;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 120px 40px 30px 0;
+    font-family: 'Rubik-VariableFont_wght', sans-serif;
+
+    @include onTablet {
+      padding: 0 0 30px;
+      font-size: 35px;
+    }
+  } 
+  
+  &__subtitle {
+    padding-bottom: 50px;
+  } 
+  
+  &__photo {
+    margin: 108px 0 86px 0;
+  }
+
+  &__image {
+    max-width: 612px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__services {
+    max-width: 1140px;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: $shadowColor;
+    border-radius: 10px;
+    padding: 67px 90px;
+    margin-bottom: 90px;
+
+    @include onTablet {
+      justify-content: center;
+    }
+  }
+
+  &__main {
+    @include onTablet {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.nav__link {
+  padding-right: 40px;
+  color: $subtitleColor;
+  font-size: 16px;
+  font-family: 'Rubik-Italic-VariableFont_wght', sans-serif;
+  transition: all 0.3s ease-out;
+
+  &:last-child {
+    padding: 0;
+  }
+
+  &:hover {
+    color: $redButton;
+  }
+
+  @include onTablet {
+    padding-right: 5px;
+  }
+}
+
+.nav {
+  @include onTablet {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 150px;
+    justify-content: center;
+    left: 10px;
+    gap: 10px;
+  }
+}

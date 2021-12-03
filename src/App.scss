@@ -1,0 +1,73 @@
+@import './utils/vars.scss';
+@import './utils/mixins.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  max-width: 1350px;
+  padding: 45px 80px 0 80px;
+  margin: 0 auto;
+
+  @include onTablet {
+    padding: 35px 20px 0 20px;
+  }
+}
+
+.maintitle {
+  color: $titlecolor;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Rubik-VariableFont_wght', sans-serif;
+}
+
+.mainsubtitle {
+  color: $subtitleColor;
+  font-size: 16px;
+  font-family: 'Rubik-Italic-VariableFont_wght', sans-serif;
+  line-height: 30px;
+}
+
+.whitebutton {
+  border-radius: 20px;
+  border: 2px solid $signButton;
+  background-color: $whiteColor;
+  color: $signButton;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Rubik-Bold', sans-serif;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: $redButton;
+    color: $whiteColor;
+    box-shadow: $redShadowColor;
+  }
+}
+
+.redbutton {
+  min-width: 250px;
+  height: 55px;
+  border-radius: 8px;
+  background-color: $redButton;
+  color: $whiteColor;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: $redShadowColor;
+  font-family: 'Rubik-Bold', sans-serif;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    color: $redButton;
+    background-color: $whiteColor;
+    border: 2px solid $redButton;
+  }
+}

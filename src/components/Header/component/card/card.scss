@@ -1,0 +1,48 @@
+@import '../../../../utils/vars.scss';
+@import '../../../../utils/mixins.scss';
+
+.services {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  max-width: 290px;
+  height: 100px;
+  width: 100%;
+  border-left: 2px solid $afterLineColor;
+
+  &:first-child {
+    border-left: none;
+  }
+
+  @include onTablet {
+    height: auto;
+    padding: 30px 20px 20px 0;
+    text-align: center;
+    border-left: none;
+    flex-direction: column;
+    gap: 10px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__icon {
+    cursor: pointer;
+    transition: transform 0.3s linear;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__count {
+    font-weight: bold;
+    font-family: 'Rubik-VariableFont_wght', sans-serif;
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+}
+  

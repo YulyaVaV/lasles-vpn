@@ -1,0 +1,49 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+
+.subscribe {
+  max-width: 1100px;
+  width: 100%;
+  max-height: 233px;
+  display: flex;
+  justify-content: space-between;
+  background: $whiteColor;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: $shadowColor;
+  border-radius: 20px;
+  padding: 58px 70px;
+  margin: 0 auto 25px;
+
+  @include onTablet {
+    text-align: center;
+    justify-content: center;
+    max-height: 320px;
+    box-shadow: none;
+  }
+
+  &__title {
+    padding-bottom: 20px;
+
+    @include onTablet {
+      width: 300px;
+    }
+  }
+
+  &__subtitle {
+    @include onTablet {
+      padding-bottom: 30px;
+    }
+  }
+
+  &__wrap {
+    width: 410px;
+
+    @include onTablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

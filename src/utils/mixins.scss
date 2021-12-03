@@ -1,0 +1,6 @@
+ @mixin onTablet {
+    @media (max-width: 1124px) {
+      @content;
+    }
+  }
+  
