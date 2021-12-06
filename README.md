@@ -15,7 +15,7 @@ Conceal your internet activity and location so that you cannot be tracked (espec
 ##### - Buttons in the footer are transferred to the pages of these sites.
 
 -----------------------------------
-React, JS, HTML, SCSS, Flex-box, BEM, Cross-browser semantic and adaptive layout
+React, HTML, SCSS, Flex-box, BEM, Swiper.js, Cross-browser semantic and adaptive layout
 -----------------------------------
 
 Dependencies
